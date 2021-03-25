@@ -1,0 +1,28 @@
+{
+  "name": "RSS Plugin",
+  "description": "Create events and annotations from RSS items in an RSS feed",
+  "main": "index.js",
+  "config": [
+    {
+      "key": "posthogHost",
+      "name": "PostHog Host",
+      "type": "string",
+      "default": "",
+      "required": true
+    },
+    {
+      "key": "posthogApiKey",
+      "name": "PostHog API Key",
+      "type": "string",
+      "default": "",
+      "required": true
+    },
+    {
+      "key": "rssFeedUrl",
+      "name": "RSS Feed Url",
+      "type": "string",
+      "default": "",
+      "required": true
+    }
+  ]
+}
